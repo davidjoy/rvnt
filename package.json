@@ -4,6 +4,7 @@
     "description": "Web worker helpers for React projects.",
     "main": "index.js",
     "scripts": {
+        "lint": "./node_modules/.bin/eslint index.js worker.js",
         "test": "jest"
     },
     "repository": {
@@ -19,5 +20,13 @@
     "bugs": {
         "url": "https://github.com/davidjoy/rvnt/issues"
     },
-    "homepage": "https://github.com/davidjoy/rvnt#readme"
+    "homepage": "https://github.com/davidjoy/rvnt#readme",
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.7.2",
+        "eslint-config-airbnb": "^18.0.1",
+        "eslint-plugin-import": "^2.19.1",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-react": "^7.17.0"
+    }
 }
