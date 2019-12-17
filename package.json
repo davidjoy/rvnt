@@ -1,0 +1,23 @@
+{
+    "name": "rvnt",
+    "version": "1.0.0",
+    "description": "Web worker helpers for React projects.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/davidjoy/rvnt.git"
+    },
+    "keywords": [
+        "worker",
+        "react"
+    ],
+    "author": "David Joy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/davidjoy/rvnt/issues"
+    },
+    "homepage": "https://github.com/davidjoy/rvnt#readme"
+}
